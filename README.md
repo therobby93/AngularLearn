@@ -1,1 +1,1 @@
-# AngularLearn
+# Learning fundamentals of Angular
