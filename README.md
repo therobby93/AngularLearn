@@ -73,7 +73,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Robby Sanchez** - *Initial work* - [PurpleBooth](https://github.com/therobby93)
+* **Robby Sanchez** - *Initial work* - [PurpleBooth](https://github.com/)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
