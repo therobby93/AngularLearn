@@ -1,6 +1,6 @@
 <!doctype html>
 <html ng-app>
-   
+   <!--ng-app is a directive, defines and links an AngularJS application to HTML. -->
    <head>
       <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.3.3/angular.min.js"></script>
    </head>
@@ -10,9 +10,11 @@
          <label>Name:</label>
          <input type = "text" ng-model = "yourName" placeholder = "Enter a name here">
          <hr />
+         <!-- ng-model:This directive binds the values of AngularJS application data to HTML input controls -->
          
          <h1>Hello {{yourName}}!</h1>
       </div>
       
    </body>
 </html>
+<!--3rd directive, not on the file but ng-bind: This directive binds the AngularJS Application data to HTML tags. -->
