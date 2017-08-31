@@ -1,28 +1,34 @@
 # Learning fundamentals of Angular
-# Project Title
+My journey with Angular. 
+## MVC
+ *Model − It is the lowest level of the pattern responsible for maintaining data.
 
-One Paragraph of project description goes here
+ *View − It is responsible for displaying all or a portion of the data to the user.
 
-## Getting Started
+ *Controller − It is a software Code that controls the interactions between the Model and View.
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+## Directives
+*AngularJS directives are used to extend HTML.
 
-### Prerequisites
+## Expressions
 
-What things you need to install the software and how to install them
-
+*Expressions are used to bind application data to html. 
+*Expressions are written inside double braces like {{ expression}}. 
+*Expressions behaves in same way as ng-bind directives. 
+**AngularJS application expressions are pure javascript expressions and outputs the data where they are used.
 ```
 Give examples
 ```
 
-### Installing
-
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
-
+## Controllers
+* AngularJS application mainly relies on controllers to control the flow of data in the application. 
+* A controller is defined using ng-controller directive.
+* A controller is a JavaScript object containing attributes/properties and functions.
+*Each controller accepts $scope as a parameter which refers to the application/module that controller is to control.
 ```
-Give the example
+<div ng-app = "" ng-controller = "studentController">
+   ...
+</div>
 ```
 
 And repeat
