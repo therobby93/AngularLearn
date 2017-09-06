@@ -39,9 +39,10 @@ until finished
 
 End with an example of getting some data out of the system or using it for a little demo
 
-## Running the tests
+## Modules
 
-Explain how to run the automated tests for this system
+* Modules are used to separate logics say services, controllers, application etc. and keep the code clean.
+* 
 
 ### Break down into end to end tests
 
@@ -51,14 +52,17 @@ Explain what these tests test and why
 Give an example
 ```
 
-### And coding style tests
+### Other topics that I learned
 
-Explain what these tests test and why
+Forms. ajax, includes,scopes, services, filters and etc
 
 ```
-Give an example
-```
+In Views:
+$routeProvider is the key service which set the configuration of urls, map them with the corresponding html page or ng-template, and attach a controller with the same.
 
+```
+#Bottom is reference for me 
+#Learning how to format the README file
 ## Deployment
 
 Add additional notes about how to deploy this on a live system
