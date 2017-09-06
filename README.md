@@ -58,11 +58,13 @@ Forms. ajax, includes,scopes, services, filters and etc
 
 ```
 In Views:
-$routeProvider is the key service which set the configuration of urls, map them with the corresponding html page or ng-template, and attach a controller with the same.
+$routeProvider is the key service which set the configuration of urls, 
+map them with the corresponding html page or ng-template, and attach a controller with the same.
 
 ```
-#Bottom is reference for me 
-#Learning how to format the README file
+# Bottom is reference for me 
+# Learning how to format the README file
+
 ## Deployment
 
 Add additional notes about how to deploy this on a live system
